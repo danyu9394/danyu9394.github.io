@@ -1,0 +1,84 @@
+html {
+	background: url(../images/background.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Garamond', sans-serif;
+  	background-repeat: repeat;
+}
+
+.prof-box{
+	width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 104px;
+	text-align: center;
+}
+
+.prof-pic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+h1 {
+	font-weight:100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+p {
+	font-weight: 200;
+	letter-spacing: 1;
+}
+.col-md-1{
+	width: 900px;
+	height: auto;
+	background: rgba(0,0,0,0.7);
+	padding: 5px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+	
+}
+
+.social-icons {
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	bottom: 0;
+
+}
+.social-icons a {
+	color: white;
+	text-decoration: none;
+}
+
+.line-break {
+	width: 250px;
+	margin:0 auto;
+	border-top: 1px solid white;
+}
+.nav{
+	width: 85px;
+	height: auto;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top : 15%;
+	left: 0;
+
+}
+.nav a{
+	text-decoration: none;
+	font-size: 20px;
+	width: 100%;
+	height: 40px;
+	margin:5px 0;
+	float:left;
+	display:inline-block;
+	color: white;
+
+}
