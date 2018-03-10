@@ -1,18 +1,20 @@
 html {
+	
 	background: url(../images/background.jpg);
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	font-family: 'Garamond', 'Georgia';
-  	background-repeat: repeat;
+  	font-family: 'Garamond', 'Didot';
+  	background-repeat: repeat-x;
+  	
 }
 
 .prof-box{
 	width: 400px;
 	height: 400px;
 	background: rgba(0,0,0,0.4);
-	padding: 40px;
+	padding: 40px;s
 	color: white;
 	margin: 0 auto;
 	margin-top: 104px;
@@ -33,16 +35,27 @@ p {
 	font-weight: 200;
 	letter-spacing: 1;
 }
+.left {
+	float : left;
+}
+.right {
+	float : right;
+}
 .col-md-1{
+	
 	width: 900px;
 	height: auto;
 	background: rgba(0,0,0,0.7);
 	padding: 5px;
 	color: white;
-	margin: 0 auto;
+	margin: auto;
 	margin-top: 10px;
-	
+	padding-left: 200px;
+	border:#000 1px solid;
+	padding:20px;
+
 }
+
 
 .social-icons {
 	margin-top: 5px;
@@ -63,7 +76,7 @@ p {
 	border-top: 1px solid white;
 }
 .nav{
-	width: 85px;
+	width: 95px;
 	height: auto;
 	background: rgba(0,0,0,0.5);
 	position: absolute;
